@@ -1,0 +1,6 @@
+#en service va el nombre del contenedor(app.csv) construimos con build y el contexto desde donde se construye el contewnedor es la carpeta actual (.) y las intrucciones estan en dockerfile
+services:
+  app-csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
